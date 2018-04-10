@@ -1,74 +1,98 @@
-body {
-    color: #2525A8;
-    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
-    
-}
-
 .header {
     background-color: #02b3e4;
     width: 100%;
     height: 150px;
     display: flex;
+    margin-top: 3px;
     margin-bottom: 20px;
     border-radius: 5px;
     box-shadow: 2px 5px 5px lightgrey;
+
 }
+
 
 .udacity-logo {
     width: 130px;
     margin: 0px;
+
 }
+
 
 .header-title {
     margin-left: auto;
     margin-right: 2em;
     text-align: right;
+    margin-top: 5px;
 }
+
 
 .header-job {
     font-weight: bold;
+
 }
+
 
 .main {
     width: 100%;
+
 }
+
 
 .photo {
     max-width: 100%;
     border-radius: 5px;
+
 }
 
-.description {
-    font-size: 18px;
-    font-style: italic;
-    line-height: 1.2em;
-    text-align: justify;
-}
 
-.contact-me {
-    text-align: center;
-}
-
-.contact1 {
+.contact {
     width: 100px;
-    margin: 50px;
+    margin: 30px;
+
 }
 
-.contact2 {
-    width: 100px;
-    margin: 50px;
-}
-
-.contact3 {
-    width: 100px;
-    margin: 50px;
-}
-
-.contact4 {
-    width: 100px;
-    margin: 50px;
-}
 
 footer {
     text-align: center;
+
+}
+
+
+@media screen and (max-width: 360px){
+
+    .header-logo {
+        width: 100px;
+
+    }
+    
+    .header-title {
+        margin-right: 1em;
+        margin-top: 0px;
+
+    }
+
+    .header-job {
+        margin: auto;
+
+    }
+
+.contact {
+    width: 150px;
+}
+
+}
+
+
+@media screen and (max-width: 399px){
+    
+    .header-title {
+        margin-right: 1em;
+
+    }
+
+    .header-job {
+        margin: auto;
+
+    }
+
 }
